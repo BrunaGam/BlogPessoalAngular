@@ -3,3 +3,12 @@
     text-align: center;
     border-bottom: 1px solid blueviolet;
 }
+
+.fs-16
+{
+    font-size: 16pt;
+}
+
+a{
+    cursor: pointer;
+}
