@@ -20,7 +20,10 @@ color: #3b5998;
 }
 
 .fa-instagram:hover{
-    color: #C13584;
+    background: linear-gradient(180deg, rgba(251,255,0,1) 0%, rgba(255,0,221,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
 
     .fa-linkedin-square:hover{
