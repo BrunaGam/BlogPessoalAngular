@@ -46,7 +46,7 @@
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Descrição</th>
-                    <th scope="col" class="text-right">Modificações</th>
+                    <th scope="col" class="text-center">Funções</th>
                     
                   </tr>
                 </thead>
@@ -55,8 +55,8 @@
                   <tr *ngFor='let tema of listaTemas'>
                     <th>{{tema.id}}</th>
                     <td>{{tema.descricao}}</td>
-                    <td class="d-flex justify-content-end">
-                    <button class="btn btn-info mr-3" [routerLink]="['/tema-edit', tema.id]">Editar</button>
+                    <td class="d-flex justify-content-center">
+                    <button class="btn btn-dark mr-4" [routerLink]="['/tema-edit', tema.id]">Editar</button>
                     <button class="btn btn-danger" [routerLink]="['/tema-delete', tema.id]">Apagar</button>
                     </td>
                   </tr>
